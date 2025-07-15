@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 from io import BytesIO  # For download fix
 
 # Load model and labels
-model = load_model("model/model.keras")
+model = load_model("/model/model.keras")
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Ensure folders exist
